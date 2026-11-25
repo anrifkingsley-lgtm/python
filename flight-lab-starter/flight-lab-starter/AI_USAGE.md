@@ -27,8 +27,12 @@ No AI tools were used.
 |flight_perser| function logging| i asked ia|
 ## Key prompts
 
-1.logging/regrex
-2.bool
+1.comment eviter le piège des booléens en Python (isinstance(True, int)) et des nombres non finis=> english(How to avoid the pitfalls of booleans in Python (`isinstance(True, int)`) and non-finite numbers)
+2.j'arrive pas a eviter ce probleme de regrex voici ma syntax:def _parse_datetime(text):
+    try:
+        return datetime.strptime(text, "%Y-%m-%d %H:%M")
+    except ValueError:
+        return None
 
 ## What I changed or verified myself
 
